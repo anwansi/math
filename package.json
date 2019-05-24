@@ -1,0 +1,31 @@
+{
+  "name": "@anwansi/math",
+  "version": "0.1.0",
+  "description": "Algebraic and geometric utilities for graphics applications",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha-webpack": "^2.0.0-beta.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha-webpack --webpack-config test/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwansi/math.git"
+  },
+  "author": "Cedric Hobbs <cedric@anwansi.com> (https://anwansi.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/anwansi/math/issues"
+  },
+  "homepage": "https://github.com/anwansi/math#readme"
+}
