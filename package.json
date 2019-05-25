@@ -6,14 +6,13 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.2.0",
+    "mocha": "^5.2.0",
     "mocha-webpack": "^2.0.0-beta.0",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "mocha-webpack --webpack-config test/webpack.config.js"
