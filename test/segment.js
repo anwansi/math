@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import Circle from '@/geometry/circle';
-import Point from '@/geometry/point';
-import Segment from '@/geometry/segment';
+import Circle from '@/lib/geometry/circle';
+import Point from '@/lib/geometry/point';
+import Segment from '@/lib/geometry/segment';
 
 describe('segment.js', () => {
     it('Segment magnitude', () => {

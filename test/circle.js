@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import Circle from '@/geometry/circle';
-import Point from '@/geometry/point';
+import Circle from '@/lib/geometry/circle';
+import Point from '@/lib/geometry/point';
 
 describe('circle.js', () => {
     it('Circle translate', () => {

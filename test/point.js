@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Point from '@/geometry/point';
+import Point from '@/lib/geometry/point';
 
 describe("point.js", () => {
     it("Point has coordinates from constructor", () => {

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Matrix from '@/algebra/matrix';
+import Matrix from '@/lib/algebra/matrix';
 
 describe("matrix.js", () => {
     it("Matrix construction and access", () => {

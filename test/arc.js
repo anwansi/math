@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import Arc from '@/geometry/arc';
-import Point from '@/geometry/point';
+import Arc from '@/lib/geometry/arc';
+import Point from '@/lib/geometry/point';
 
 describe('arc.js', () => {
     console.log("TESTING");
